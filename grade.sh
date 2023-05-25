@@ -33,8 +33,7 @@ then
 	exit
 fi
 
-# output=`java -cp '.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar:grading-area/student-submission' org.junit.runner.JUnitCore TestListExamples` 
-java -cp '.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar:grading-area/student-submission' org.junit.runner.JUnitCore TestListExamples
-# echo $output
+java -cp '.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar:grading-area/student-submission' org.junit.runner.JUnitCore TestListExamples 
 
+#grep -E "" 
 
